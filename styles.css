@@ -5,9 +5,8 @@
 }
 
 :root {
-  --main-black: #181617;
-  --nav-links: #a07525;
-  --secundary-black: #333;
+  --main-black: #333;
+  --grey: #b4b3b3;
   --main-font: "Montserrat", "sans-serif";
 }
 
@@ -26,7 +25,7 @@ h3 {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 40px 20px;
+  padding: 25px 20px;
 }
 
 ul {
@@ -38,14 +37,16 @@ li {
   padding-left: 10px;
 }
 
+a {
+  color: var(--main-black);
+}
+
 .logo {
   width: 10%;
 }
 
 .hero-image {
-  width: 90rem;
-  height: 40rem;
-  object-fit: cover;
+  width: 100vw;
 }
 
 .hero-container {
@@ -63,6 +64,27 @@ li {
   color: white;
 }
 
+main {
+  padding: 0 30px;
+}
+
 h1 {
   font-size: 2.188rem;
+}
+
+.learning-section {
+  padding: 20px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.card {
+  background-color: var(--grey);
+  padding: 20px;
+  border-radius: 15px;
+  width: 32%;
 }
