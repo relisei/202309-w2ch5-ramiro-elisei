@@ -1,1 +1,22 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --main-black: #181617;
+  --nav-links: #a07525;
+  --secundary-black: #2f2d2e;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
